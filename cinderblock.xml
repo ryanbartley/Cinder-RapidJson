@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="rapidjson"
+	id="org.libcinder.rapidjson"
+	author="Ryan Bartley"
+	git="https://github.com/ryanbartley/Cinder-RapidJson.git"
+	>
+	<supports os="ios" />
+	<supports os="macosx" />
+	<supports os="msw" />
+	
+	<headerPattern>rapidjson/include/rapidjson/*.h</headerPattern>
+	<headerPattern>rapidjson/include/rapidjson/error/*.h</headerPattern>
+	<headerPattern>rapidjson/include/rapidjson/internal/*.h</headerPattern>
+	<headerPattern>rapidjson/include/rapidjson/msinttypes/*.h</headerPattern>
+
+	<headerPattern>src/cinder/Cinder-RapidJson/*.h</headerPattern>
+
+	<includePath>src/</includePath>
+	<includePath>rapidjson/include/</includePath>
+
+</block>
+
+</cinder>
